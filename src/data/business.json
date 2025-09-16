@@ -1,0 +1,45 @@
+{
+  "brandName": "Κοντορόκος",
+  "tagline": "Αυθεντική ελληνική κουζίνα στη Σαλαμίνα",
+  "sectors": ["Εστίαση", "Ελληνική κουζίνα"],
+  "primaryLocation": {
+    "city": "Σαλαμίνα",
+    "areas": ["Κέντρο"],
+    "address": "Οδός Αιγαίου 1, Σαλαμίνα 189 00",
+    "geo": { "lat": 37.9645, "lng": 23.5168 }
+  },
+  "contact": {
+    "phone": "+30 21 0466 1234",
+    "email": "info@kontorokos.gr",
+    "hours": {
+      "mon_fri": "12:00–00:00",
+      "sat": "12:00–01:00",
+      "sun": "12:00–00:00"
+    }
+  },
+  "services": [
+    { "name": "Μεζέδες", "desc": "Παραδοσιακοί μεζέδες με φρέσκα υλικά.", "priceFrom": "€8" },
+    { "name": "Ψητά", "desc": "Χειροποίητα ψητά από την παραδοσιακή ελληνική κουζίνα.", "priceFrom": "€10" }
+  ],
+  "social": { 
+    "googleBusinessUrl": "https://maps.google.com/?cid=1234567890123456789", 
+    "facebook": "https://www.facebook.com/kontorokos.salamina", 
+    "instagram": "https://www.instagram.com/kontorokos/" 
+  },
+  "seo": {
+    "targetKeywordsEL": ["εστιατόριο σαλαμίνα", "ελληνική κουζίνα κοντορόκος"],
+    "targetKeywordsEN": ["greek restaurant salamina", "kontorokos greek food"]
+  },
+  "brand": {
+    "primary": "#D2691E",
+    "secondary": "#8B4513",
+    "accent": "#F4A460",
+    "dark": "#3E2723",
+    "light": "#FFF8DC",
+    "fontHeadings": "Inter",
+    "fontBody": "Inter"
+  },
+  "bilingual": true,
+  "imagesPolicy": "auto-or-placeholder",
+  "notes": "CTA για κράτηση τραπεζιού, emphasis σε φωτογραφίες φαγητού και reviews."
+}
