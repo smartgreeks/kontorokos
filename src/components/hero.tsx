@@ -8,8 +8,7 @@ import businessData from '@/src/data/business.json';
 
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }
+  animate: { opacity: 1, y: 0 }
 };
 
 const staggerContainer = {
@@ -74,6 +73,7 @@ export function Hero() {
           {/* Badge */}
           <motion.div
             variants={fadeInUp}
+            transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
             className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3 mb-8"
           >
             <div className="flex items-center gap-1">

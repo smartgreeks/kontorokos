@@ -51,7 +51,7 @@ export function SiteFooter() {
             </div>
             
             <p className="text-slate-300 mb-6 leading-relaxed">
-              {businessData.description}
+              {businessData.tagline}
             </p>
             
             {/* Social Media */}

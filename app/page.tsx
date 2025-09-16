@@ -27,7 +27,7 @@ export default function HomePage() {
                 που θα σας ταξιδέψουν στις ρίζες της Μεσογείου.
               </p>
             </div>
-            <ServicesGrid services={businessData.services} />
+            <ServicesGrid />
           </div>
         </section>
       </SectionWrapper>

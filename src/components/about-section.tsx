@@ -35,8 +35,7 @@ const stats = [
 
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }
+  animate: { opacity: 1, y: 0 }
 };
 
 const staggerContainer = {
@@ -79,7 +78,10 @@ export function AboutSection() {
             whileInView="animate"
             viewport={{ once: true }}
           >
-            <motion.div variants={fadeInUp}>
+            <motion.div 
+              variants={fadeInUp}
+              transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
+            >
               <h3 className="text-3xl font-bold mb-6">
                 Μια Οικογενειακή Παράδοση
               </h3>

@@ -48,7 +48,7 @@ const faqData: FAQItem[] = [
     },
     answer: {
       el: 'Ναι! Έχουμε μεγάλη ποικιλία vegetarian πιάτων όπως γεμιστά, σπανακόπιτα, φασολάδα και φρέσκες σαλάτες. Για vegan επιλογές, παρακαλούμε ενημερώστε το προσωπικό μας.',
-      el: 'Yes! We have a wide variety of vegetarian dishes like stuffed vegetables, spanakopita, bean soup and fresh salads. For vegan options, please inform our staff.'
+      en: 'Yes! We have a wide variety of vegetarian dishes like stuffed vegetables, spanakopita, bean soup and fresh salads. For vegan options, please inform our staff.'
     }
   },
   {

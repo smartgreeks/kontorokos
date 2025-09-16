@@ -73,7 +73,7 @@ export default function ServicesPage() {
               </p>
             </div>
 
-            <ServicesGrid services={businessData.services} />
+            <ServicesGrid />
           </div>
         </section>
       </SectionWrapper>
